@@ -34,7 +34,7 @@ export default function CharacterDetail() {
   }
   const errorContent = error && (
     <div className=" flex flex-col justify-center items-center">
-      <span>Opps there is some problems </span>
+      <span>Opps something went wrong :( </span>
       <span>{error.message}</span>
     </div>
   );
